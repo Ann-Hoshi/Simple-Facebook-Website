@@ -1,0 +1,177 @@
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(#0A369D, #4472CA, #5E7CE2);
+    border-bottom: 1px solid #92B4F4;
+}
+.logo{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top: 15px;
+}
+.login{
+    display: flex;
+    position: absolute;
+    font-family: 'Teko';
+    left: 58%;
+    top: 15px;
+}
+.login .email,
+.login .password{
+    padding-left: 10px;
+}
+.login .email .font,
+.login .password .font{
+    font-size: 15px;
+    padding-bottom: 4px;
+    color: white;
+}
+.login .email input,
+.login .password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.login button{
+    height: 24px;
+    width: 70px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 26px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    background: #4472CA;
+    border: 1px solid #92B4F4;
+}
+.login button:hover{
+    background: #5E7CE2;
+}
+
+
+section{
+    height: 600px;
+    width: 100%;
+    top: 80px;
+    background: linear-gradient(#CFDEE7, #92B4FA, #5E7CE2);
+    font-family: 'Teko';
+}
+.fb_logo{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.fb_logo .like_font{
+    font-family: 'Modern-Antiqua';
+    font-size: 25px;
+    margin-left: -30px;
+}
+.fb_logo .font1{
+    color:  #0A369D;
+    margin-left: 20px;   
+    margin-bottom: 5px;
+}
+.fb_signup{
+    font-family: 'Modern-Antiqua';
+    position: absolute;
+    left: 57%;  
+}
+.fb_signup .create{
+    font-size: 40px;
+    margin: 15px 0;
+}
+.fb_signup .free{
+    margin: -20px 5px;
+    font-size: 18px;
+}
+.fb_signup .signup_form input{
+    margin-top: 35px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+.fb_signup .signup_form .lastname{
+    margin-left: 15px;
+}
+.fb_signup .signup_form .email,
+.fb_signup .signup_form .password,
+.fb_signup .signup_form .password2{
+    margin-top: 20px;
+    width: 410px;
+}
+.fb_signup .signup_form .birthday{
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+}
+.fb_signup .signup_form .birth_date{
+    margin-top: 5px;
+}
+.fb_signup .signup_form .month,
+.fb_signup .signup_form .day,
+.fb_signup .signup_form .year{
+    height: 28px;
+}
+.fb_signup .signup_form .day,
+.fb_signup .signup_form .year{
+    margin-left: -5px;
+}
+.fb_signup .signup_form .question{
+position: absolute;
+    padding-left: 1px;
+    margin-top: 3px;
+    height: 20px;
+    width: 25px;
+}
+.fb_signup .signup_form a{
+    text-decoration: none;
+}
+.fb_signup .signup_form a:hover{
+    text-decoration: underline;
+}
+.fb_signup .signup_form input[type="radio"]{
+    height: 15px;
+    margin-left: -50px;
+    margin-top: -5px;
+}
+.fb_signup .signup_form input[value="male"]{
+	margin-left: -100px;
+}
+.fb_signup .signup_form .font{
+position: absolute;
+    margin-left: 57px;
+    margin-top: -17px;
+}
+.fb_signup .signup_form .font2{
+    margin-left: 150px;
+
+}
+.fb_signup .signup_form .agreement{
+    margin-top: 12px;
+    font-size: 12px;
+    width: 350px;
+    color: black;
+}
+.fb_signup .signup_form .signup{
+    margin-top: 5px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #4472CA;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(#0A369D, #4472CA, #5E7CE2);
+}
+.fb_signup .signup_form .signup:hover{
+    background: linear-gradient(#4472CA, #5E7CE2);
+}
